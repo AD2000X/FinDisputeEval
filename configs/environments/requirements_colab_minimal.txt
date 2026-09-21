@@ -1,0 +1,7 @@
+pydantic>=2,<3
+pandera
+rapidfuzz
+datasketch
+spacy
+nltk
+fasttext-wheel

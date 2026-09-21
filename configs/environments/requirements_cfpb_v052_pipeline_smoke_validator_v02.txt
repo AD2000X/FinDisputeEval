@@ -1,0 +1,10 @@
+pandas>=2.2,<3
+pyarrow>=16,<23
+pydantic>=2.8,<3
+scikit-learn>=1.5,<2
+openpyxl>=3.1,<4
+
+# Optional provider-independent NER layer. The deterministic validator does not
+# silently emulate these packages when they are absent.
+spacy>=3.8,<4
+presidio-analyzer>=2.2,<3

@@ -1,0 +1,36 @@
+{
+  "version": "v051_unchanged_lexical_candidates_v01",
+  "source": "src/findisputeeval/cfpb_seed_source_eda_v05.py",
+  "source_sha256": "6654878185eeca9b510537d0b7756c968b7329f7eb0947e86b91250e9719090c",
+  "interpretation": "Unvalidated lexical candidates; reused only as a historical measurement bridge.",
+  "patterns": {
+    "lx_negation_candidate": {
+      "pattern": "\\b(?:no|not|never|neither|nor|without|cannot|can't|couldn't|didn't|doesn't|don't|wasn't|weren't|isn't|aren't|won't|wouldn't|haven't|hasn't)\\b",
+      "flags": 34
+    },
+    "lx_hedging_candidate": {
+      "pattern": "\\b(?:I think|I believe|I guess|maybe|might|may|possibly|probably|perhaps|not sure|seems?|appears?|pretty sure|as far as I know)\\b",
+      "flags": 34
+    },
+    "lx_authorization_candidate": {
+      "pattern": "\\b(?:authori[sz](?:e|ed|ation)|permission|consent|recognize|made this (?:charge|purchase|transaction))\\b",
+      "flags": 34
+    },
+    "lx_escalation_candidate": {
+      "pattern": "\\b(?:CFPB|regulator|attorney|lawyer|lawsuit|legal action|sue|Better Business Bureau|BBB|news media|supervisor)\\b",
+      "flags": 34
+    },
+    "lx_emotion_candidate": {
+      "pattern": "\\b(?:frustrat\\w*|ridiculous|angry|upset|stress\\w*|distress\\w*|unacceptable|furious|devastat\\w*|scared|afraid)\\b",
+      "flags": 34
+    },
+    "lx_temporal_candidate": {
+      "pattern": "\\b(?:yesterday|today|last (?:week|month|year|night)|this (?:week|month)|ago|before|after|when|since|until|recently|on \\[DATE\\])\\b",
+      "flags": 34
+    },
+    "lx_repair_candidate": {
+      "pattern": "\\b(?:I mean|I meant|actually|rather|correction|no,\\s*I mean)\\b|\\bnot\\b.{0,60}\\bbut\\b",
+      "flags": 34
+    }
+  }
+}

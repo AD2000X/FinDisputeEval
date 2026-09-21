@@ -1,0 +1,511 @@
+{
+  "snapshot_date": "2026-09-21",
+  "files_before_this_manifest": 122,
+  "notebooks_cleaned": 29,
+  "output_blocks_removed": 538,
+  "decoded_source_payloads_scanned": 72,
+  "credential_pattern_findings": 0,
+  "limits": "Allowlist and bounded pattern scan, not formal privacy clearance or a complete secret audit.",
+  "data_included": false,
+  "code_license_assigned": false,
+  "excluded_categories": [
+    "data",
+    "executed outputs",
+    "annotations",
+    "private reports",
+    "case-specific adjudication scripts",
+    "external PDFs and examples",
+    "local environments",
+    "agent/editor settings"
+  ],
+  "files": {
+    ".gitattributes": {
+      "sha256": "3f0be9b2d91bf76c9a496a62842e8204a83fb03180aadc78bebb71a3e603495f",
+      "size_bytes": 85
+    },
+    ".gitignore": {
+      "sha256": "8288d9373deafbdb7b9812de33100405ae62dd25687f436d75d72e8bb50892bd",
+      "size_bytes": 428
+    },
+    "DATA_POLICY.md": {
+      "sha256": "d3df3f9d876a80fb62288a4d3c90812f19815ffa004362d5dcecaeedee233cec",
+      "size_bytes": 1480
+    },
+    "README.md": {
+      "sha256": "a96206e1e80b818c20a118a364c6ef2d725efa6c4f1eb0410feff8405c24ef7d",
+      "size_bytes": 4893
+    },
+    "WORK_PROGRESS.md": {
+      "sha256": "a58431754a015308b00401c8138f51122997fc7fea7272e4fdb37e3285a7b75d",
+      "size_bytes": 434
+    },
+    "configs/data/README.md": {
+      "sha256": "cd8d48e824869be062445c76774ed3c5bb6f48b319bd5929c2f70f73e6fe301a",
+      "size_bytes": 577
+    },
+    "configs/data/datasets.json": {
+      "sha256": "b05225833bcc4302d7f52c1e31d2f30cc2dd1e3bc5825187ca539c7551398a92",
+      "size_bytes": 21706
+    },
+    "configs/data/lineage_exceptions.json": {
+      "sha256": "09dfb7cc6559d06bbac8bec32cb60fc17931d800b5c691abc649f8075bfe5c8b",
+      "size_bytes": 1471
+    },
+    "configs/data/source_lock.json": {
+      "sha256": "a20343c57025a832122f1dd42fd3908ec856440819ff032629de68413bcd1ecd",
+      "size_bytes": 3296
+    },
+    "configs/environments/requirements_cfpb_seed_source_eda_v051_colab.txt": {
+      "sha256": "ffd7339659585436745006de3eace202f7da0b2eecba9c33fc37e003b3abf0c5",
+      "size_bytes": 237
+    },
+    "configs/environments/requirements_cfpb_seed_source_eda_v05_colab.txt": {
+      "sha256": "ffd7339659585436745006de3eace202f7da0b2eecba9c33fc37e003b3abf0c5",
+      "size_bytes": 237
+    },
+    "configs/environments/requirements_cfpb_v052_pipeline_smoke_validator_v02.txt": {
+      "sha256": "57acdfeb17dc9701c0ca8691d992cec3febd9273c4214e4816a8ea4fb024b0d5",
+      "size_bytes": 263
+    },
+    "configs/environments/requirements_cfpb_v052_semantic_judge_v01_colab.txt": {
+      "sha256": "8aa3a68b5d676a144cb93639c7c592c78248d2dcc19f2b3171f4028614849bf9",
+      "size_bytes": 87
+    },
+    "configs/environments/requirements_colab_minimal.txt": {
+      "sha256": "4194e185639f3588f6504445153982dbbc16b45dc47c1535f7eac547ef5ac26a",
+      "size_bytes": 70
+    },
+    "configs/evaluation/cfpb_v051_legacy_linguistic_contract_v01.json": {
+      "sha256": "b243de8843cc3bdc504e5a6339547d3eef19d4631657ef3f1acd798bd0a4f210",
+      "size_bytes": 1706
+    },
+    "configs/generation/cfpb_v052_nemotron_exploration_v01_inputs.json": {
+      "sha256": "c22d369b8522c4ae09488b1f7662f3eb009e4f45d7b38cc6d00b978d22c35b8e",
+      "size_bytes": 2082
+    },
+    "configs/generation/judges/cfpb_v052_semantic_judge_v01.md": {
+      "sha256": "f09260db26da1305cac74aadee59dbb0a5e8de121eea4a6f19e0253670225375",
+      "size_bytes": 4943
+    },
+    "configs/generation/judges/cfpb_v052_semantic_judge_v02.md": {
+      "sha256": "1fb776f95da7624d52d6ca659be102fc6247e5f10955f77b074b000b12084414",
+      "size_bytes": 4397
+    },
+    "configs/generation/judges/cfpb_v052_semantic_judge_v02_attempt02.md": {
+      "sha256": "6cf2d11f5775457fa61b4f5679ea3caddcc43f0ed9e273071c2b2cdeddf4b0f1",
+      "size_bytes": 6939
+    },
+    "dataset/README.md": {
+      "sha256": "f2cefc35a22ddde3c10132b15a5894b31c0a8bd226b0bf2ab0b05e9e65e9a953",
+      "size_bytes": 78
+    },
+    "docs/portfolio/METHODS.md": {
+      "sha256": "dea39da0764cbff4a18512c0b69e8d6f7ba7a1fbb21357d4a4eed2ee8dcdc59d",
+      "size_bytes": 5083
+    },
+    "docs/portfolio/REPRODUCIBILITY.md": {
+      "sha256": "7e511b46e88523ecd3c5100e0fdc08231ec7077aeeeefb1abacadff914b6dbb9",
+      "size_bytes": 2998
+    },
+    "docs/portfolio/RESULTS.md": {
+      "sha256": "1572a01c33e526f78827b88f4685fa9296ada24757b4d96925d30e25f7d6e1f1",
+      "size_bytes": 3378
+    },
+    "notebooks/10_source_eda/abcd/canonical/FinDisputeEval_ABCD_Structure_EDA_colab_v01.ipynb": {
+      "sha256": "52d2cdfd397a4a6e3bf49b7363c6fd8f0590954c44ffe31ca459dd7d9c8f33cd",
+      "size_bytes": 28344
+    },
+    "notebooks/10_source_eda/banking77/canonical/FinDisputeEval_BANKING77_Intent_EDA_colab_v01.ipynb": {
+      "sha256": "62de4131b53167ea901e316d8c1f807b46a8638faca81853a5addcf6594b80c6",
+      "size_bytes": 18341
+    },
+    "notebooks/10_source_eda/cfpb/canonical/FinDisputeEval_CFPB_Linguistic_EDA_colab_v04.ipynb": {
+      "sha256": "e2d89c35305a786d9778e176166a9922fa2dc4f5d8ef0eba2f5630a86226ba72",
+      "size_bytes": 137277
+    },
+    "notebooks/10_source_eda/cfpb/canonical/FinDisputeEval_CFPB_Linguistic_EDA_local_v04.ipynb": {
+      "sha256": "fc98de2b555454d4a76fd2232212d7c3c9c341b3a4d61d3cf1ac1600ae5de65d",
+      "size_bytes": 132687
+    },
+    "notebooks/10_source_eda/cfpb/canonical/FinDisputeEval_CFPB_SeedSource_EDA_colab_v05.ipynb": {
+      "sha256": "bbd573fef517913caf8abf262ba4dc1b06939640743773df16aa12635c3fe3e9",
+      "size_bytes": 37897
+    },
+    "notebooks/10_source_eda/cfpb/canonical/FinDisputeEval_CFPB_SeedSource_EDA_colab_v051.ipynb": {
+      "sha256": "a465b3746565e1ea7046e57fb58dc6f771571875758b43e4fc7dc332375b9305",
+      "size_bytes": 42882
+    },
+    "notebooks/10_source_eda/clinc150/canonical/FinDisputeEval_CLINC150_OOS_EDA_colab_v01.ipynb": {
+      "sha256": "fcaaebc622debb96e6f9a1ed4def57c2c9a2b0cc8d890bd420aca90c747d7917",
+      "size_bytes": 28046
+    },
+    "notebooks/10_source_eda/emowoz/canonical/FinDisputeEval_EmoWOZ_Emotion_EDA_colab_v01.ipynb": {
+      "sha256": "3e1dad03d724d68e3bf5a2e05d8f5ab136626f46c2c9e716214501dcf43027f6",
+      "size_bytes": 27266
+    },
+    "notebooks/10_source_eda/samsum/canonical/FinDisputeEval_SAMSum_Summarization_EDA_colab_v01.ipynb": {
+      "sha256": "1c9b74b3c4f56a06fda325a45df73b6a5d0b5f8f98ebca6b7cb294dac7908128",
+      "size_bytes": 27285
+    },
+    "notebooks/20_seed_curation/cfpb_dispute/canonical/FinDisputeEval_CFPB_FuzzyCluster_Audit_and_Decision_v04.ipynb": {
+      "sha256": "b7922e56a3ace9ba2e22b7fb0b656edbc61dc344cc1ba59842b9809f5d07c94b",
+      "size_bytes": 17767
+    },
+    "notebooks/20_seed_curation/cfpb_dispute/canonical/FinDisputeEval_CFPB_Privacy_NER_QA_colab_v01.ipynb": {
+      "sha256": "e777675a7da182be90a46769e59dc0b55f6d550ba0027a7bad97a9709d76a5dc",
+      "size_bytes": 9495
+    },
+    "notebooks/20_seed_curation/cfpb_dispute/canonical/FinDisputeEval_CFPB_Privacy_NER_QA_colab_v02.ipynb": {
+      "sha256": "d230687107aaf8a9680f0e8451e62c5198e6ab8083018f5e18986b9b8df5c892",
+      "size_bytes": 39408
+    },
+    "notebooks/20_seed_curation/cfpb_dispute/canonical/FinDisputeEval_CFPB_SeedPool_Build_colab_v03.ipynb": {
+      "sha256": "0677c1ebf18b2df7a4549cba6d5355861d84082be8cef81173f832eee9bf8831",
+      "size_bytes": 64507
+    },
+    "notebooks/20_seed_curation/cfpb_dispute/canonical/FinDisputeEval_CFPB_SeedPool_Build_colab_v05.ipynb": {
+      "sha256": "31c9ef7bbe418af8c4fee1461ab1fedc6795352e4e50f53c786cb21c6e240ebc",
+      "size_bytes": 18275
+    },
+    "notebooks/20_seed_curation/cfpb_dispute/canonical/FinDisputeEval_CFPB_SeedPool_Build_colab_v051.ipynb": {
+      "sha256": "8c5bcf69e63ced014814f7fd23f95ce4dc1857fb9965495b03d38c78dd0fa2ac",
+      "size_bytes": 25558
+    },
+    "notebooks/20_seed_curation/cfpb_dispute/canonical/FinDisputeEval_CFPB_SeedPool_Build_colab_v052.ipynb": {
+      "sha256": "61b1a3bd5ccbe814d5acd7b33a28b316c511c9fb4df54a82cac76ddef35eec49",
+      "size_bytes": 27207
+    },
+    "notebooks/20_seed_curation/cfpb_dispute/canonical/FinDisputeEval_CFPB_SeedPool_ReviewOverlay_colab_v04.ipynb": {
+      "sha256": "271327e6876aa25f9bf1fb13c59b75f5b3df933fa4ad9cad17b095da6ad28226",
+      "size_bytes": 25017
+    },
+    "notebooks/20_seed_curation/cfpb_dispute/canonical/FinDisputeEval_CFPB_SeedSource_Audit_and_Decision_v01.ipynb": {
+      "sha256": "bd9517bc8bcb296cf9cc68639d03faae837caab6dd518f9082bd993ded78bedf",
+      "size_bytes": 78591
+    },
+    "notebooks/30_generation/nemo_data_designer/seeded_dialogue/canonical/FinDisputeEval_CFPB_v052_blind_semantic_judge_v01_attempt04_colab.ipynb": {
+      "sha256": "373af37cb03bd8284f90f31c0c6bf9d950f50a7330f124f58bd2bf2b4e985012",
+      "size_bytes": 64525
+    },
+    "notebooks/30_generation/nemo_data_designer/seeded_dialogue/canonical/FinDisputeEval_CFPB_v052_blind_semantic_judge_v01_attempt05_colab.ipynb": {
+      "sha256": "4a75246ae582a642e937ddfda9b8edcfe2eebffc1d4d96696f9431cb078b8c8e",
+      "size_bytes": 65541
+    },
+    "notebooks/30_generation/nemo_data_designer/seeded_dialogue/canonical/FinDisputeEval_CFPB_v052_blind_semantic_judge_v01_colab.ipynb": {
+      "sha256": "71f6bb5e8b9fcba2208b7273b200439fc47f0101da4999470cdf2a6240405ef1",
+      "size_bytes": 63627
+    },
+    "notebooks/30_generation/nemo_data_designer/seeded_dialogue/canonical/FinDisputeEval_CFPB_v052_blind_semantic_judge_v02_attempt01_colab.ipynb": {
+      "sha256": "c680928c911b81f23e49f1e2faf0cc3c365f9ff042d270a692b402d42b8cc4aa",
+      "size_bytes": 71221
+    },
+    "notebooks/30_generation/nemo_data_designer/seeded_dialogue/canonical/FinDisputeEval_CFPB_v052_blind_semantic_judge_v02_attempt02_colab.ipynb": {
+      "sha256": "471e3d9a981a65e054bd4fff35630200687c7e43dc72150f38298f7f087fe318",
+      "size_bytes": 74954
+    },
+    "notebooks/30_generation/nemo_data_designer/seeded_dialogue/canonical/FinDisputeEval_CFPB_v052_blind_semantic_judge_v02_deepseek_v4_flash_0731_attempt01_colab.ipynb": {
+      "sha256": "eda0c15a24071c173019c4fc7d753c08a3d0010a50131ce5c76a6c4e87e48d14",
+      "size_bytes": 72622
+    },
+    "notebooks/30_generation/nemo_data_designer/seeded_dialogue/canonical/FinDisputeEval_CFPB_v052_generation_linguistic_comparison_v01_colab.ipynb": {
+      "sha256": "ff15a5b7ac302d1c128d7ca33c10f3e0a5c26c2730e5b83c1202a21bbec71252",
+      "size_bytes": 24480
+    },
+    "notebooks/30_generation/nemo_data_designer/seeded_dialogue/canonical/FinDisputeEval_CFPB_v052_nemotron_exploration_20_v01_colab.ipynb": {
+      "sha256": "0cfc6895c17cb646ac73b5c38a563e632153ed85b373da0805704d2946deb0ab",
+      "size_bytes": 51265
+    },
+    "notebooks/30_generation/nemo_data_designer/seeded_dialogue/canonical/FinDisputeEval_CFPB_v052_nemotron_super_exploration_20_v02_colab.ipynb": {
+      "sha256": "7c499e4f70694daae6290e80d57703bbde1fbc17b97451124a0a591b38375714",
+      "size_bytes": 59708
+    },
+    "notebooks/30_generation/nemo_data_designer/seeded_dialogue/canonical/FinDisputeEval_NeMoDataDesigner_CFPB_v052_pipeline_smoke_colab.ipynb": {
+      "sha256": "feefb24e08f26b49725505400e16d821125e15e7dd01715a9d0207ceb7a4c939",
+      "size_bytes": 35831
+    },
+    "notebooks/30_generation/nemo_data_designer/seeded_dialogue/workbench/FinDisputeEval_NeMoDataDesigner_SeededDialogue_exp_001_colab.ipynb": {
+      "sha256": "7d59fafc8bd858fac19db155c8cd9095f3163a8a3bfdcbd3b7467186d6d3407b",
+      "size_bytes": 45620
+    },
+    "notebooks/README.md": {
+      "sha256": "2a089d25b48769709bcbe1f73ab6c969634b55c407825c609482d50c8a923aaa",
+      "size_bytes": 5182
+    },
+    "outputs/README.md": {
+      "sha256": "cd95587a937be45da4dbcc4ac0a04db41820ec8ae47d9a65988b9ddc190c4db4",
+      "size_bytes": 118
+    },
+    "recipes/README.md": {
+      "sha256": "70ee0fd65eb071b20b0e64510ae7494609b995aeab3420f90c943ceca0a8b2e0",
+      "size_bytes": 252
+    },
+    "scripts/apply_cfpb_privacy_pipeline_override_v02.py": {
+      "sha256": "60e4d4c3e3d0fed5d32646a63bae316ceab8505e65f1d3590add536aac6d51a8",
+      "size_bytes": 8937
+    },
+    "scripts/build_cfpb_privacy_qa_v02_notebook.py": {
+      "sha256": "b41416f6da824345c9184a721fc917ecf0ece0e721b46052eec4d035190a5429",
+      "size_bytes": 22948
+    },
+    "scripts/build_cfpb_seed_audit_notebook_v02.py": {
+      "sha256": "8d7208546343b30f8344d78af4bd67a9dcdb5673fc2cd9ce9414c9f0dbd8482c",
+      "size_bytes": 15489
+    },
+    "scripts/build_cfpb_seed_v051_governance.py": {
+      "sha256": "8d670d5bfd46a15f790eeb52194ab7d1bae960e142f18e4ab1f6334cc6203914",
+      "size_bytes": 20127
+    },
+    "scripts/build_cfpb_seed_v051_notebook.py": {
+      "sha256": "14037dff63688a25fc14272f72afaf81d29dbf8d866d65653d65b119504d6ac1",
+      "size_bytes": 7817
+    },
+    "scripts/build_cfpb_seed_v052_governance.py": {
+      "sha256": "fdb19e847bae6fe086b6b21d24135696d26b7e484e005bb3a3e6c13dbfd2451e",
+      "size_bytes": 24177
+    },
+    "scripts/build_cfpb_v052_linguistic_comparison_notebook.py": {
+      "sha256": "2fb1f9136f413242e1b2db3730c476dc95e7cb4471564882d2b62320a53abecf",
+      "size_bytes": 9875
+    },
+    "scripts/build_cfpb_v052_nemotron_exploration_notebook.py": {
+      "sha256": "3651e6e11f9316adfd9afae4819a741a5be5cbd06ced9d2dda89e195cc9a3871",
+      "size_bytes": 16971
+    },
+    "scripts/build_cfpb_v052_nemotron_super_exploration_notebook.py": {
+      "sha256": "799492696c9092b857cc37c6f8dd81f2098e94a96c18bf8710dcb125cd828675",
+      "size_bytes": 11624
+    },
+    "scripts/build_cfpb_v052_pipeline_smoke_notebook.py": {
+      "sha256": "94f563c1a6b4a0c0ccef0fa2bc8911b2fd786e674fc8c2526c81face8c640928",
+      "size_bytes": 18940
+    },
+    "scripts/build_cfpb_v052_semantic_judge_v01_notebook.py": {
+      "sha256": "c98009cdfa74e7f95cec78675cd72c55cac2ebfdef9b7e447028ebd9b2562062",
+      "size_bytes": 23047
+    },
+    "scripts/build_cfpb_v052_semantic_judge_v02_attempt02_notebook.py": {
+      "sha256": "140468440be0e6fd97e1ac1372257a0c872df4778862f278c125721af1c20f6f",
+      "size_bytes": 9744
+    },
+    "scripts/build_cfpb_v052_semantic_judge_v02_deepseek_attempt01_notebook.py": {
+      "sha256": "18f5a723dd068a21bc2d6cec75fb9f7d7fb6b1f0b38ae4c13931efa140ba98ff",
+      "size_bytes": 12221
+    },
+    "scripts/build_cfpb_v052_semantic_judge_v02_notebook.py": {
+      "sha256": "f6505def200ed3703004e80eb71f29edca3de2d378dbe6ed0aa486fe94f3bdd5",
+      "size_bytes": 9777
+    },
+    "scripts/build_cfpb_v052_workflow_notebooks.py": {
+      "sha256": "765c31f1f7811da499a474ad709f5a6094b5c326dfda378a3ded23c6265cb91c",
+      "size_bytes": 23705
+    },
+    "scripts/build_generation_review_expanded.py": {
+      "sha256": "00e037e6b50f811a0f0862ecba61084c3a14a19747eb4be67bc41a3d5f5ac54b",
+      "size_bytes": 9999
+    },
+    "scripts/evaluation/cfpb_v052_linguistic_comparison_v01.py": {
+      "sha256": "03701539cecc1bfbf9bdb3d9b6ec51c95d670d500ac0d42e534e3c35e6eed81d",
+      "size_bytes": 31329
+    },
+    "scripts/export_cfpb_v052_seed_readable.py": {
+      "sha256": "ccf4abeb5bc348db49e4857bb2bd6bf9aa2809c5cebf2272650bc40432001b7c",
+      "size_bytes": 18232
+    },
+    "scripts/generation/nemo_data_designer/build_cfpb_v052_pipeline_smoke_review_workbook.py": {
+      "sha256": "83ba0b819e5c1a5b009e1771522f2e3c77bcd646d9a60b1624660df1443c0b21",
+      "size_bytes": 12163
+    },
+    "scripts/generation/nemo_data_designer/build_cfpb_v052_review_workbook_v02.py": {
+      "sha256": "2de08194c95c97d1c7daf45338ab2274909f8604345fa6771033c8bb1ac88e3b",
+      "size_bytes": 16630
+    },
+    "scripts/generation/nemo_data_designer/cfpb_v052_nemotron_exploration_v01.py": {
+      "sha256": "f1d8eb41b2fa28b0dd576de2b3415e744f0b76800094dea75780bafdff95120f",
+      "size_bytes": 20082
+    },
+    "scripts/generation/nemo_data_designer/cfpb_v052_pipeline_smoke_v02_common.py": {
+      "sha256": "a35e8fdfcaa7e486f7b28d67d587f4cca8ff76fa5c52eb6ba8806f44804d708e",
+      "size_bytes": 7540
+    },
+    "scripts/generation/nemo_data_designer/evaluate_cfpb_v052_semantic_judge_v01.py": {
+      "sha256": "cb2b1940a5643f4f44824a5041081e75ca20177b2f1c2fad67e3af45900b0715",
+      "size_bytes": 4865
+    },
+    "scripts/generation/nemo_data_designer/freeze_cfpb_v052_pipeline_smoke_run.py": {
+      "sha256": "d12a854d28eb21bef06e7369b231c31533799f3cad23f27c0dfd1fcfef3a2aa8",
+      "size_bytes": 5608
+    },
+    "scripts/generation/nemo_data_designer/freeze_cfpb_v052_semantic_judge_v01.py": {
+      "sha256": "651549e7f7c1f130ba9729f3fb5e21d0cd82b84afd3bd9b88bda831b3410ce72",
+      "size_bytes": 14038
+    },
+    "scripts/generation/nemo_data_designer/generate_multi_turn_dialogues.py": {
+      "sha256": "c24c0aa61948b1568598002896c65fcdccc552fab20e9c06d9231cbc950e44f1",
+      "size_bytes": 7202
+    },
+    "scripts/generation/nemo_data_designer/generate_multi_turn_dialogues_v051.py": {
+      "sha256": "1ad9152aa144a5947709b94565399a4903c8000d57e635de9b3e51d737d83ec3",
+      "size_bytes": 4788
+    },
+    "scripts/generation/nemo_data_designer/generate_multi_turn_dialogues_v052_pipeline_smoke.py": {
+      "sha256": "35e4354bae683de040fe64903cfc1d5f513db8048a7c2f20969c5ae80c939386",
+      "size_bytes": 8081
+    },
+    "scripts/generation/nemo_data_designer/generate_multi_turn_dialogues_v052_pipeline_smoke_v02.py": {
+      "sha256": "68288e5e97b325192e8f5f1ec5eb8d2edc6cfb9cad533565fa560dce043d8581",
+      "size_bytes": 8620
+    },
+    "scripts/generation/nemo_data_designer/prepare_cfpb_seed_v04.py": {
+      "sha256": "e86040d5bac0a52a75b70ef426477db7dfcc9d7650b3abddcecd3e891037306f",
+      "size_bytes": 4941
+    },
+    "scripts/generation/nemo_data_designer/prepare_cfpb_seed_v051.py": {
+      "sha256": "e649d9f1121415beb42ef65e9cfd75f99f7a7eb78a002a1566553bacfdbae346",
+      "size_bytes": 6923
+    },
+    "scripts/generation/nemo_data_designer/prepare_cfpb_seed_v052_pipeline_smoke.py": {
+      "sha256": "9b55292e058ca8ef1e586d4e61103bbcf57695ba12990ec2186ef2e5b36ed8f8",
+      "size_bytes": 16939
+    },
+    "scripts/generation/nemo_data_designer/prepare_cfpb_seed_v052_pipeline_smoke_v02.py": {
+      "sha256": "02544f0e16f4dbebb0cbb6cbfda3504746e5d90d3fd485eb8154d0bec1367687",
+      "size_bytes": 23941
+    },
+    "scripts/generation/nemo_data_designer/run_cfpb_v052_blind_semantic_judge_v01.py": {
+      "sha256": "788ba75d416967442a5ba82ce7fedbede2ae74608db3a6c5c052da2b7b3087bb",
+      "size_bytes": 35227
+    },
+    "scripts/generation/nemo_data_designer/run_cfpb_v052_blind_semantic_judge_v02.py": {
+      "sha256": "046cd0300d4aa751f3d12d02e194102d3cbccfdeb19546444aa7e8aafe65e0e4",
+      "size_bytes": 13619
+    },
+    "scripts/generation/nemo_data_designer/run_cfpb_v052_blind_semantic_judge_v03.py": {
+      "sha256": "22beadb343cd8ecdae297b35d1d9c3f8437941fcb365bacf8699699cfa295d36",
+      "size_bytes": 15293
+    },
+    "scripts/generation/nemo_data_designer/scaffold_cfpb_v052_pipeline_smoke_oracle_v02.py": {
+      "sha256": "88385d858ca0b9beb1e06f57487625f7efd282db4d131cfc29fecbb88b9d2258",
+      "size_bytes": 7190
+    },
+    "scripts/generation/nemo_data_designer/validate_cfpb_v051_dialogues.py": {
+      "sha256": "07f722d4603ac42fae23b0d41e5274ba992a52ba418e33030a8fe1903bd47398",
+      "size_bytes": 9087
+    },
+    "scripts/generation/nemo_data_designer/validate_cfpb_v052_pipeline_smoke.py": {
+      "sha256": "1071dde0afe5c6c5f56a3cbb228ff8ee22d23bf994e5d0e947eb6230dfbfd4d4",
+      "size_bytes": 17360
+    },
+    "scripts/generation/nemo_data_designer/validate_cfpb_v052_pipeline_smoke_v02.py": {
+      "sha256": "2e9b9f47f51bc3571366883311f1f9200f839335c06aaa7c6e16bf7c602c24de",
+      "size_bytes": 21357
+    },
+    "scripts/repair_register_adjudication_delimiter.py": {
+      "sha256": "7723eb20e4427b6d8da9a2cafa8ec0cadd5277153298c9f02b6b44eb3746a2eb",
+      "size_bytes": 2032
+    },
+    "scripts/validate_cfpb_seed_v051_release.py": {
+      "sha256": "67232d78162602c2e988be74af9d173031949d486b8492f5f5d99de0dced61b4",
+      "size_bytes": 12842
+    },
+    "scripts/validate_cfpb_seed_v052_release.py": {
+      "sha256": "93ee6838ed7c5afacd70beba852092f5bb8fbc04d8665a990ca67a114bbfe8f1",
+      "size_bytes": 11207
+    },
+    "scripts/validate_cfpb_seed_v052_release_v02.py": {
+      "sha256": "d17d52763b6d8a22c8174a33159ebc762d2dc8602c35e3bd78711f2992befc72",
+      "size_bytes": 13723
+    },
+    "src/findisputeeval/__init__.py": {
+      "sha256": "9ee497e512e6c6bb077314051bacfd7ad97295b64da236797af3ec0c5e70caf7",
+      "size_bytes": 51
+    },
+    "src/findisputeeval/cfpb_seed_source_eda_v05.py": {
+      "sha256": "6654878185eeca9b510537d0b7756c968b7329f7eb0947e86b91250e9719090c",
+      "size_bytes": 51650
+    },
+    "src/findisputeeval/cfpb_seed_source_eda_v051.py": {
+      "sha256": "0a21491e1dd6a1f7a10d3e2a489bb5293189febe167c1d1109dc4466bf9e4caf",
+      "size_bytes": 8167
+    },
+    "src/findisputeeval/curation/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    "src/findisputeeval/curation/cfpb_privacy_qa.py": {
+      "sha256": "a9654f9bf4453bb4dec29ad7b86f384f9c3005b2649a8d03d2a3286185dc1965",
+      "size_bytes": 4999
+    },
+    "src/findisputeeval/curation/cfpb_privacy_qa_v02.py": {
+      "sha256": "b25c6de07f53395284e891d902bff2fff40f7ed88b9c2a2b5530d4ac77c61ee3",
+      "size_bytes": 15894
+    },
+    "src/findisputeeval/curation/cfpb_seed_audit_v02.py": {
+      "sha256": "ecd5fe95281444008219deb71d1b99c5900eb7b613316c3736af8473c3da9a23",
+      "size_bytes": 44697
+    },
+    "src/findisputeeval/curation/cfpb_seed_common.py": {
+      "sha256": "f06b311934401cfe065e54c58ada52f4896b50124646d179549a81f4d6a172d5",
+      "size_bytes": 12903
+    },
+    "src/findisputeeval/curation/cfpb_seed_v05.py": {
+      "sha256": "1f0fcfac9dda5eb8b122fc3007b43ad3f185c3667b9c309cca89cfeef7c0d23a",
+      "size_bytes": 20329
+    },
+    "src/findisputeeval/curation/cfpb_seed_v051.py": {
+      "sha256": "30cc21291827340b57b55e4a9dd5dd3c7e6d553e5b4c247356b643dc0e1b5a61",
+      "size_bytes": 31037
+    },
+    "src/findisputeeval/curation/cfpb_seed_v052.py": {
+      "sha256": "d08ba4c380a73b99d702c77ab82e8b7acd527fa8006c5cce359cdb107daf85a3",
+      "size_bytes": 33694
+    },
+    "tests/test_cfpb_privacy_qa_v02.py": {
+      "sha256": "0f3a82935e78077a89b508714cb11b6ae4c1f42f80dc581e91dc08947228f112",
+      "size_bytes": 6957
+    },
+    "tests/test_cfpb_seed_common.py": {
+      "sha256": "891c06bcd09d9fd0734ffb3f197238bd0844868f8d8de9eb2494d1f4640905b3",
+      "size_bytes": 4886
+    },
+    "tests/test_cfpb_v052_linguistic_comparison_v01.py": {
+      "sha256": "14acd19f765b97488a641a69e549dddedbebf66d2163667a9fbc45c258a747d8",
+      "size_bytes": 6363
+    },
+    "tests/test_cfpb_v052_nemotron_exploration.py": {
+      "sha256": "8d65c263e86a52ff480b89ccfeeb9416e8176efa85b087b9eb49004ad53ccfab",
+      "size_bytes": 8991
+    },
+    "tests/test_cfpb_v052_nemotron_super_exploration.py": {
+      "sha256": "855e593ee895743a98af96dfeb9f421726b5cbcd969df5bb7b89719a128a8c01",
+      "size_bytes": 4905
+    },
+    "tests/test_cfpb_v052_pipeline_smoke.py": {
+      "sha256": "f636dbf7ba2b912d23d69544fe168daa0e9587d391941a987c0ba01139419e29",
+      "size_bytes": 8467
+    },
+    "tests/test_cfpb_v052_pipeline_smoke_v02.py": {
+      "sha256": "a12e84e12d7b0cb1945d11127873a8d2701ef1df0fa7274364f74a69b30bbee5",
+      "size_bytes": 6355
+    },
+    "tests/test_cfpb_v052_semantic_judge_v01.py": {
+      "sha256": "bd8e93adb611f8222d0e1a9b511cc0b5465e7e6c29909ff129665ba58fde631b",
+      "size_bytes": 25848
+    },
+    "tests/test_cfpb_v052_semantic_judge_v02.py": {
+      "sha256": "d741212574c260cc36fc40b55a86def792cb8cc29abbc89a436fc5bda678fab3",
+      "size_bytes": 7845
+    },
+    "tests/test_cfpb_v052_semantic_judge_v02_attempt02.py": {
+      "sha256": "925bd844828ee8a62cb8bd6b95b609c6d106d687b139c371ae5118982224153e",
+      "size_bytes": 4232
+    },
+    "tests/test_cfpb_v052_semantic_judge_v02_deepseek.py": {
+      "sha256": "e88e6e853a4e1bb2da10270c6533872f871eabbe646ca69719a8aef465a0b0ea",
+      "size_bytes": 5950
+    },
+    "tests/test_export_cfpb_v052_seed_readable.py": {
+      "sha256": "b9a4feca98e67cd870a95a3036a8997feeea13a12258aa8ea69be6f96a2d354f",
+      "size_bytes": 4239
+    }
+  }
+}

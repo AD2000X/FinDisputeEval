@@ -1,0 +1,13 @@
+pandas>=2.2,<3
+numpy>=1.26,<3
+pyarrow>=16,<22
+pandera>=0.22,<1
+pydantic>=2,<3
+rapidfuzz>=3.9,<4
+datasketch>=1.6,<2
+spacy>=3.8,<4
+fasttext-wheel>=0.9.2,<1
+presidio-analyzer>=2.2,<3
+scikit-learn>=1.5,<2
+matplotlib>=3.9,<4
+seaborn>=0.13,<1

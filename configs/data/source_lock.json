@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0.0",
+  "locked_date": "2026-07-10",
+  "file_count": 15,
+  "files": [
+    {
+      "path": "dataset/external/banking77/raw/categories.json",
+      "size_bytes": 2036,
+      "sha256": "53261da888122daf2d120d925458631d9619e15d82e56052e7a42e535ce32b63"
+    },
+    {
+      "path": "dataset/external/banking77/raw/test.csv",
+      "size_bytes": 239961,
+      "sha256": "d12d6e3bc4c3103966ae786dc435913c0c563dfa328f5a3646d0e62cfeeb474d"
+    },
+    {
+      "path": "dataset/external/banking77/raw/train.csv",
+      "size_bytes": 839073,
+      "sha256": "b06e26ac675513959a63135f11b94ea7786ed02da65db93a5650d8838cbc664b"
+    },
+    {
+      "path": "dataset/external/cfpb/raw/api_pull_2026-07-03/cfpb_prepaid_alltime.csv",
+      "size_bytes": 14252149,
+      "sha256": "46ca4fb6240995e3b403f5d133db582fb61725643d3b3cf99f7388fcd3ffb54b"
+    },
+    {
+      "path": "dataset/external/cfpb/raw/api_pull_2026-07-03/cfpb_zelle_fulltext.csv",
+      "size_bytes": 18055019,
+      "sha256": "b8ac99f669685aa20870cb8c7da876276b0ec836ddd11b14c2a7829c7d9a742d"
+    },
+    {
+      "path": "dataset/external/cfpb/raw/seed_build_v03_cache_2026-07-04/cfpb_inscope_recent.csv",
+      "size_bytes": 263764226,
+      "sha256": "cb1cb7de32169e39725d35677319d8fda9d59f52ee08d60d78bc9624e3f1dc53"
+    },
+    {
+      "path": "dataset/external/cfpb/raw/seed_build_v03_cache_2026-07-04/cfpb_prepaid_alltime.csv",
+      "size_bytes": 14252149,
+      "sha256": "46ca4fb6240995e3b403f5d133db582fb61725643d3b3cf99f7388fcd3ffb54b"
+    },
+    {
+      "path": "dataset/external/cfpb/raw/seed_build_v03_cache_2026-07-04/cfpb_zelle_fulltext.csv",
+      "size_bytes": 17458138,
+      "sha256": "7b685018b4c4415a5f7219aba57cdb6e76c92c539254fafeb3c0691c44aad6f8"
+    },
+    {
+      "path": "dataset/external/cfpb/raw/ui_export_2026-06-09/complaints-2026-06-09_00_45.csv",
+      "size_bytes": 20735193,
+      "sha256": "6cbea8d7412744e0c44cbdaba192aae444127aa2d6b6808b5ac22847fcacbe57"
+    },
+    {
+      "path": "dataset/external/doc2dial/v1.0.1/raw/doc2dial_v1.0.1.zip",
+      "size_bytes": 6221970,
+      "sha256": "94499fa5259f69018d2458cb948552e7a05f424711a95a562bb9e816a515dc23"
+    },
+    {
+      "path": "dataset/external/maven_financial_consumer_complaints/raw/Consumer_Complaints.xlsx",
+      "size_bytes": 3984261,
+      "sha256": "e081c1886e58e4ca7e34f5fb55466e8bfee43e608a1460b09fa99a15aa095748"
+    },
+    {
+      "path": "dataset/external/maven_financial_consumer_complaints/raw/ConsumerComplaints_DataDictionary.csv",
+      "size_bytes": 1265,
+      "sha256": "0ef1998eec0afac14106d8ce26efbcdf20c769178222c9e5bf7b2e2dac0dee2a"
+    },
+    {
+      "path": "dataset/external/metalwoz/v1/LICENSE.pdf",
+      "size_bytes": 229926,
+      "sha256": "55edd71ffbe68edb0aaee52c3a5ff17f3fe6881622bef8a234fd35ed74ced0ee"
+    },
+    {
+      "path": "dataset/external/metalwoz/v1/raw/metalwoz-v1.zip",
+      "size_bytes": 5639228,
+      "sha256": "2a2ae3b25760aa2725e70bc6480562fa5d720c9689a508d28417631496d6764f"
+    },
+    {
+      "path": "dataset/external/smcalflow/raw/train.dataflow_dialogues.jsonl.zip",
+      "size_bytes": 18962688,
+      "sha256": "2beb5fd51056999051081300aea33fdf228378fa214f915f6167cb4924e23d28"
+    }
+  ]
+}

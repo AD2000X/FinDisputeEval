@@ -1,0 +1,813 @@
+{
+  "schema_version": "1.0.0",
+  "catalog_source": "docs/data_catalog/FinDisputeEval_Dataset_Reference_v2.xlsx",
+  "catalog_snapshot_date": "2026-07-03",
+  "registry_updated_date": "2026-07-10",
+  "entry_count": 65,
+  "entries": [
+    {
+      "catalog_number": 1,
+      "dataset_id": "cfpb_consumer_complaint_database",
+      "display_name": "CFPB Consumer Complaint Database",
+      "kind": "dataset",
+      "tier": 1,
+      "language_scope": "english",
+      "status": "eda_complete",
+      "roles": [
+        "complaint_language",
+        "scenario_seed",
+        "case_summarization",
+        "intent_taxonomy"
+      ],
+      "local_paths": [
+        "dataset/external/cfpb",
+        "dataset/curated/seed_pools/cfpb_dispute"
+      ]
+    },
+    {
+      "catalog_number": 2,
+      "dataset_id": "maven_analytics_financial_consumer_complaints",
+      "display_name": "Maven Analytics Financial Consumer Complaints",
+      "kind": "dataset",
+      "tier": 1,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": [
+        "dataset/external/maven_financial_consumer_complaints"
+      ]
+    },
+    {
+      "catalog_number": 3,
+      "dataset_id": "banking77",
+      "display_name": "BANKING77",
+      "kind": "dataset",
+      "tier": 2,
+      "language_scope": "english",
+      "status": "eda_complete",
+      "roles": [
+        "banking_intent",
+        "normal_banking_negative"
+      ],
+      "local_paths": [
+        "dataset/external/banking77"
+      ]
+    },
+    {
+      "catalog_number": 4,
+      "dataset_id": "clinc150_clinc_oos",
+      "display_name": "CLINC150 / CLINC-OOS",
+      "kind": "dataset",
+      "tier": 2,
+      "language_scope": "english",
+      "status": "eda_complete",
+      "roles": [
+        "out_of_scope_detection",
+        "over_escalation_test"
+      ],
+      "local_paths": [
+        "ref/datasets/clinc150_oos"
+      ]
+    },
+    {
+      "catalog_number": 5,
+      "dataset_id": "talkmap_banking_conversation_corpus",
+      "display_name": "talkmap/banking-conversation-corpus",
+      "kind": "dataset",
+      "tier": 2,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [
+        "dialogue_structure",
+        "repair",
+        "grounding"
+      ],
+      "local_paths": [
+        "ref/datasets/talkmap_banking_conversation_corpus"
+      ]
+    },
+    {
+      "catalog_number": 6,
+      "dataset_id": "bitext_retail_banking_llm_chatbot_dataset",
+      "display_name": "Bitext Retail Banking LLM Chatbot Dataset",
+      "kind": "dataset",
+      "tier": 2,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": [
+        "ref/datasets/bitext_retail_banking"
+      ]
+    },
+    {
+      "catalog_number": 7,
+      "dataset_id": "oopere_retailbanking_conversations",
+      "display_name": "oopere/RetailBanking-Conversations",
+      "kind": "dataset",
+      "tier": 2,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": [
+        "ref/datasets/oopere_retail_banking_conversations"
+      ]
+    },
+    {
+      "catalog_number": 8,
+      "dataset_id": "harpervalleybank",
+      "display_name": "HarperValleyBank",
+      "kind": "dataset",
+      "tier": 2,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [
+        "asr_error_simulation",
+        "voice_channel"
+      ],
+      "local_paths": [
+        "ref/datasets/harper_valley_bank"
+      ]
+    },
+    {
+      "catalog_number": 9,
+      "dataset_id": "defined_ai_banking_dialogue",
+      "display_name": "Defined.ai Banking Dialogue",
+      "kind": "dataset",
+      "tier": 2,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 10,
+      "dataset_id": "banking_300k",
+      "display_name": "Banking 300k",
+      "kind": "dataset",
+      "tier": 2,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 11,
+      "dataset_id": "mbd_multimodal_banking_dataset",
+      "display_name": "MBD (Multimodal Banking Dataset)",
+      "kind": "dataset",
+      "tier": 2,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": [
+        "ref/datasets/mbd"
+      ]
+    },
+    {
+      "catalog_number": 12,
+      "dataset_id": "nexdata_multi_domain_customer_service_dialogue",
+      "display_name": "Nexdata Multi-domain Customer Service Dialogue",
+      "kind": "dataset",
+      "tier": 2,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 13,
+      "dataset_id": "abcd_action_based_conversations_dataset",
+      "display_name": "ABCD (Action-Based Conversations Dataset)",
+      "kind": "dataset",
+      "tier": 3,
+      "language_scope": "english",
+      "status": "eda_complete",
+      "roles": [
+        "policy_constrained_dialogue",
+        "action_sequence",
+        "handoff"
+      ],
+      "local_paths": [
+        "ref/datasets/abcd"
+      ]
+    },
+    {
+      "catalog_number": 14,
+      "dataset_id": "schema_guided_dialogue_sgd",
+      "display_name": "Schema-Guided Dialogue (SGD)",
+      "kind": "dataset",
+      "tier": 3,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [
+        "slot_filling",
+        "dialogue_state_tracking"
+      ],
+      "local_paths": [
+        "ref/datasets/schema_guided_dialogue"
+      ]
+    },
+    {
+      "catalog_number": 15,
+      "dataset_id": "multiwoz_2_2",
+      "display_name": "MultiWOZ 2.2",
+      "kind": "dataset",
+      "tier": 3,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": [
+        "ref/datasets/multiwoz_2_2"
+      ]
+    },
+    {
+      "catalog_number": 16,
+      "dataset_id": "taskmaster_1_2_3",
+      "display_name": "Taskmaster 1/2/3",
+      "kind": "dataset",
+      "tier": 3,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": [
+        "ref/datasets/taskmaster_123"
+      ]
+    },
+    {
+      "catalog_number": 17,
+      "dataset_id": "metalwoz",
+      "display_name": "MetaLWOz",
+      "kind": "dataset",
+      "tier": 3,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": [
+        "dataset/external/metalwoz",
+        "dataset/interim/metalwoz",
+        "ref/datasets/metalwoz"
+      ]
+    },
+    {
+      "catalog_number": 18,
+      "dataset_id": "airdialogue",
+      "display_name": "AirDialogue",
+      "kind": "dataset",
+      "tier": 3,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": [
+        "ref/datasets/air_dialogue"
+      ]
+    },
+    {
+      "catalog_number": 19,
+      "dataset_id": "doc2dial_multidoc2dial",
+      "display_name": "Doc2Dial / MultiDoc2Dial",
+      "kind": "dataset",
+      "tier": 3,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [
+        "document_grounded_dialogue",
+        "rag_design"
+      ],
+      "local_paths": [
+        "dataset/external/doc2dial",
+        "dataset/interim/doc2dial"
+      ]
+    },
+    {
+      "catalog_number": 20,
+      "dataset_id": "smcalflow",
+      "display_name": "SMCalFlow",
+      "kind": "dataset",
+      "tier": 3,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": [
+        "dataset/external/smcalflow",
+        "dataset/interim/smcalflow",
+        "ref/datasets/smcalflow"
+      ]
+    },
+    {
+      "catalog_number": 21,
+      "dataset_id": "dstc11_track_2_intent_induction",
+      "display_name": "DSTC11 Track 2 Intent Induction",
+      "kind": "dataset",
+      "tier": 3,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": [
+        "ref/datasets/dstc11_intent_induction"
+      ]
+    },
+    {
+      "catalog_number": 22,
+      "dataset_id": "customer_support_on_twitter",
+      "display_name": "Customer Support on Twitter",
+      "kind": "dataset",
+      "tier": 4,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 23,
+      "dataset_id": "msdialog_msdialog_intent",
+      "display_name": "MSDialog / MSDialog-Intent",
+      "kind": "dataset",
+      "tier": 4,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 24,
+      "dataset_id": "natcs",
+      "display_name": "NatCS",
+      "kind": "dataset",
+      "tier": 4,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 25,
+      "dataset_id": "antiscam",
+      "display_name": "AntiScam",
+      "kind": "dataset",
+      "tier": 4,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 26,
+      "dataset_id": "dailydialog",
+      "display_name": "DailyDialog",
+      "kind": "dataset",
+      "tier": 5,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 27,
+      "dataset_id": "empatheticdialogues",
+      "display_name": "EmpatheticDialogues",
+      "kind": "dataset",
+      "tier": 5,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 28,
+      "dataset_id": "emowoz",
+      "display_name": "EmoWOZ",
+      "kind": "dataset",
+      "tier": 5,
+      "language_scope": "english",
+      "status": "eda_complete",
+      "roles": [
+        "emotion",
+        "frustration",
+        "escalation_risk"
+      ],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 29,
+      "dataset_id": "socialdial",
+      "display_name": "SocialDial",
+      "kind": "dataset",
+      "tier": 5,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 30,
+      "dataset_id": "topical_chat",
+      "display_name": "Topical-Chat",
+      "kind": "dataset",
+      "tier": 5,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 31,
+      "dataset_id": "persona_chat",
+      "display_name": "Persona-Chat",
+      "kind": "dataset",
+      "tier": 5,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 32,
+      "dataset_id": "fiqa",
+      "display_name": "FiQA",
+      "kind": "dataset",
+      "tier": 6,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 33,
+      "dataset_id": "finqa",
+      "display_name": "FinQA",
+      "kind": "dataset",
+      "tier": 6,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 34,
+      "dataset_id": "convfinqa",
+      "display_name": "ConvFinQA",
+      "kind": "dataset",
+      "tier": 6,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 35,
+      "dataset_id": "tat_qa",
+      "display_name": "TAT-QA",
+      "kind": "dataset",
+      "tier": 6,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 36,
+      "dataset_id": "financial_phrasebank_fpb",
+      "display_name": "Financial PhraseBank (FPB)",
+      "kind": "dataset",
+      "tier": 6,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 37,
+      "dataset_id": "samsum",
+      "display_name": "SAMSum",
+      "kind": "dataset",
+      "tier": 5,
+      "language_scope": "english",
+      "status": "eda_complete",
+      "roles": [
+        "dialogue_summarization",
+        "case_summarization"
+      ],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 38,
+      "dataset_id": "dialogsum",
+      "display_name": "DialogSum",
+      "kind": "dataset",
+      "tier": 5,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 39,
+      "dataset_id": "tweetsumm",
+      "display_name": "TweetSumm",
+      "kind": "dataset",
+      "tier": 5,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 40,
+      "dataset_id": "swbd_damsl_switchboard",
+      "display_name": "SWBD-DAMSL (Switchboard)",
+      "kind": "dataset",
+      "tier": 5,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 41,
+      "dataset_id": "mrda",
+      "display_name": "MRDA",
+      "kind": "dataset",
+      "tier": 5,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 42,
+      "dataset_id": "iso_24617_2",
+      "display_name": "ISO 24617-2",
+      "kind": "annotation_standard",
+      "tier": 5,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 43,
+      "dataset_id": "timebank",
+      "display_name": "TimeBank",
+      "kind": "dataset",
+      "tier": 6,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 44,
+      "dataset_id": "tempeval",
+      "display_name": "TempEval",
+      "kind": "dataset",
+      "tier": 6,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 45,
+      "dataset_id": "wolbanking77",
+      "display_name": "WolBanking77",
+      "kind": "dataset",
+      "tier": 7,
+      "language_scope": "outside_current_english_scope",
+      "status": "retired_from_scope",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 46,
+      "dataset_id": "arbanking77",
+      "display_name": "ArBanking77",
+      "kind": "dataset",
+      "tier": 7,
+      "language_scope": "outside_current_english_scope",
+      "status": "retired_from_scope",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 47,
+      "dataset_id": "opus",
+      "display_name": "OPUS",
+      "kind": "dataset",
+      "tier": 7,
+      "language_scope": "outside_current_english_scope",
+      "status": "retired_from_scope",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 48,
+      "dataset_id": "mint_e_chain_of_intent",
+      "display_name": "MINT-E (Chain-of-Intent)",
+      "kind": "dataset",
+      "tier": 7,
+      "language_scope": "outside_current_english_scope",
+      "status": "method_reference_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 49,
+      "dataset_id": "distilabel_argilla",
+      "display_name": "Distilabel (Argilla)",
+      "kind": "generation_tool",
+      "tier": 8,
+      "language_scope": "english",
+      "status": "cataloged_with_note",
+      "roles": [
+        "synthetic_generation"
+      ],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 50,
+      "dataset_id": "nvidia_nemo_data_designer",
+      "display_name": "NVIDIA NeMo Data Designer",
+      "kind": "generation_tool",
+      "tier": 8,
+      "language_scope": "english",
+      "status": "custom_recipe_in_progress",
+      "roles": [
+        "synthetic_generation"
+      ],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 51,
+      "dataset_id": "gretel_ai",
+      "display_name": "Gretel.ai",
+      "kind": "generation_tool",
+      "tier": 8,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 52,
+      "dataset_id": "mostly_ai",
+      "display_name": "MOSTLY AI",
+      "kind": "generation_tool",
+      "tier": 8,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 53,
+      "dataset_id": "sdv_synthetic_data_vault",
+      "display_name": "SDV (Synthetic Data Vault)",
+      "kind": "generation_tool",
+      "tier": 8,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 54,
+      "dataset_id": "dialogstudio_salesforce",
+      "display_name": "DialogStudio (Salesforce)",
+      "kind": "platform_or_framework",
+      "tier": 9,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 55,
+      "dataset_id": "hugging_face_datasets_hub",
+      "display_name": "Hugging Face Datasets Hub",
+      "kind": "platform_or_framework",
+      "tier": 9,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 56,
+      "dataset_id": "kaggle_datasets",
+      "display_name": "Kaggle Datasets",
+      "kind": "platform_or_framework",
+      "tier": 9,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 57,
+      "dataset_id": "parlai_meta",
+      "display_name": "ParlAI (Meta)",
+      "kind": "platform_or_framework",
+      "tier": 9,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 58,
+      "dataset_id": "convlab_convlab_3",
+      "display_name": "ConvLab / ConvLab-3",
+      "kind": "platform_or_framework",
+      "tier": 9,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 59,
+      "dataset_id": "papers_with_code",
+      "display_name": "Papers With Code",
+      "kind": "platform_or_framework",
+      "tier": 9,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 60,
+      "dataset_id": "e_cfr_electronic_code_of_federal_regulations",
+      "display_name": "e-CFR (Electronic Code of Federal Regulations)",
+      "kind": "knowledge_source",
+      "tier": 10,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [
+        "regulatory_grounding"
+      ],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 61,
+      "dataset_id": "cfpb_circulars_advisory_opinions",
+      "display_name": "CFPB Circulars & Advisory Opinions",
+      "kind": "knowledge_source",
+      "tier": 10,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [
+        "regulatory_grounding",
+        "udaap"
+      ],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 62,
+      "dataset_id": "visa_mastercard_core_rules",
+      "display_name": "Visa / Mastercard Core Rules",
+      "kind": "knowledge_source",
+      "tier": 10,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [
+        "card_network_policy",
+        "dispute_reason_codes"
+      ],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 63,
+      "dataset_id": "sec_edgar_federal_register",
+      "display_name": "SEC EDGAR / Federal Register",
+      "kind": "knowledge_source",
+      "tier": 10,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 64,
+      "dataset_id": "fca_complaints_data",
+      "display_name": "FCA Complaints Data ()",
+      "kind": "knowledge_source",
+      "tier": 10,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    },
+    {
+      "catalog_number": 65,
+      "dataset_id": "financial_ombudsman_service_fos_afca",
+      "display_name": "Financial Ombudsman Service (FOS / AFCA)",
+      "kind": "knowledge_source",
+      "tier": 10,
+      "language_scope": "english",
+      "status": "catalog_only",
+      "roles": [],
+      "local_paths": []
+    }
+  ]
+}

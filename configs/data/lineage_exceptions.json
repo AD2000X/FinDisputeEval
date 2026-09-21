@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "updated_date": "2026-07-10",
+  "exceptions": [
+    {
+      "exception_id": "cfpb_seed_v03_reference_distribution_stale_manifest_hash",
+      "status": "pre_existing_before_workspace_restructure",
+      "manifest_path": "dataset/curated/seed_pools/cfpb_dispute/seed_v03/seed_selection_manifest.json",
+      "artifact_path": "dataset/curated/seed_pools/cfpb_dispute/seed_v03/cfpb_reference_distributions.json",
+      "manifest_created_utc": "2026-07-04T03:10:54.621119+00:00",
+      "artifact_generated_utc": "2026-07-04T03:25:31.323575+00:00",
+      "manifest_recorded_sha256": "f845742915fb3db406fd629e320cde0728628ea5d87a6984532237ea00cf8299",
+      "actual_sha256_before_and_after_restructure": "d17bd74707d37c04c6533af7372020d2c1c090dd95be5c63a6d7679682e259c3",
+      "evidence": "temp/migration_audit/pre_migration_files.csv",
+      "interpretation": "The reference-distribution artifact was regenerated after the v3 manifest was written, and the manifest output entry was not refreshed.",
+      "impact": "The stale entry affects provenance validation for this single v3 artifact. Seed row counts and the v3 manifest file itself are unchanged. The v4 parent_manifest_sha256 chain remains valid, and all v4 output hashes match their artifacts.",
+      "resolution": "Keep historical manifests byte-for-byte unchanged. Apply the corrected reference baseline from the v4 release and retain this explicit exception record."
+    }
+  ]
+}

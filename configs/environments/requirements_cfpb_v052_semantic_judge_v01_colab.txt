@@ -1,0 +1,5 @@
+openai>=1.109,<3
+pydantic>=2.10,<3
+pandas>=2.2,<3
+pyarrow>=18,<23
+scikit-learn>=1.5,<2
