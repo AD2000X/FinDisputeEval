@@ -1,5 +1,7 @@
 {
   "snapshot_date": "2026-09-21",
+  "documentation_updated_date": "2026-09-22",
+  "documentation_update_note": "Source-coverage documentation and inventory entries updated for README.md, DATA_POLICY.md, dataset/README.md and docs/portfolio/METHODS.md. Original export scan counts, dated ZIP and private export audit remain historical; this is not a new full export audit.",
   "files_before_this_manifest": 122,
   "notebooks_cleaned": 29,
   "output_blocks_removed": 538,
@@ -28,12 +30,12 @@
       "size_bytes": 428
     },
     "DATA_POLICY.md": {
-      "sha256": "d3df3f9d876a80fb62288a4d3c90812f19815ffa004362d5dcecaeedee233cec",
-      "size_bytes": 1480
+      "sha256": "edda556b21a02b8b47a668de6789ed9d17d13669abe3f4dbef3cc1c1bc8239c8",
+      "size_bytes": 1722
     },
     "README.md": {
-      "sha256": "a96206e1e80b818c20a118a364c6ef2d725efa6c4f1eb0410feff8405c24ef7d",
-      "size_bytes": 4893
+      "sha256": "94e8f1937387914c1b9dc93b567a3f32e590d3cf3fdaa5e07f28755d765172cb",
+      "size_bytes": 4955
     },
     "WORK_PROGRESS.md": {
       "sha256": "a58431754a015308b00401c8138f51122997fc7fea7272e4fdb37e3285a7b75d",
@@ -96,12 +98,12 @@
       "size_bytes": 6939
     },
     "dataset/README.md": {
-      "sha256": "f2cefc35a22ddde3c10132b15a5894b31c0a8bd226b0bf2ab0b05e9e65e9a953",
-      "size_bytes": 78
+      "sha256": "47fb4f0d0aacd8ffc3cc690120001d508a8e52b18d771109bcfc42207cad095a",
+      "size_bytes": 3048
     },
     "docs/portfolio/METHODS.md": {
-      "sha256": "dea39da0764cbff4a18512c0b69e8d6f7ba7a1fbb21357d4a4eed2ee8dcdc59d",
-      "size_bytes": 5083
+      "sha256": "7d2bb520bd4a4ecc0cff4dda283d50a2a2bfb9ea9207237d8efb6130aff2ca72",
+      "size_bytes": 5504
     },
     "docs/portfolio/REPRODUCIBILITY.md": {
       "sha256": "7e511b46e88523ecd3c5100e0fdc08231ec7077aeeeefb1abacadff914b6dbb9",

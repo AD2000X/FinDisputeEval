@@ -4,6 +4,13 @@ This document describes the executed CFPB v05.1 / Seed v05.2 method, not an opti
 
 ## Source design
 
+The main population query covers complaint dates from 2025-01-01 to 2026-07-02;
+its observed range ends on 2026-06-12. Historical Zelle and prepaid extracts use
+earlier start dates and are not part of an exclusively post-2025 collection.
+See [source date ranges and snapshot provenance](../../dataset/README.md) for
+the requested and observed ranges of all three extracts. These are complaint
+dates, not download dates.
+
 Three frozen source extracts contributed 226,771 rows: `inscope_recent` (197,489), `zelle_fulltext` (18,013), and `prepaid_alltime` (11,269). Merging on Complaint ID produced 205,589 unique records. The 21,182-row difference is cross-query duplication, not a count of invalid complaints.
 
 The analysis separates a 197,489-record population frame from 8,100 enrichment-only IDs absent from that frame. Source conflicts were recorded for 4,617 IDs; the retained source priority is recent in-scope, Zelle, then prepaid. This deterministic precedence does not establish which account of events is true.

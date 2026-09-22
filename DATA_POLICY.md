@@ -2,6 +2,10 @@
 
 The public portfolio includes selected source code, cleaned notebook source, configurations, aggregate findings, and methods documentation.
 
+See [CFPB source dates and dataset coverage](dataset/README.md) for the frozen
+research inputs' requested and observed complaint-date ranges. This is metadata
+documentation, not a distribution of the source records or private run manifests.
+
 It excludes:
 
 - Raw or curated complaint narratives and seed payloads.

@@ -6,6 +6,7 @@ This portfolio demonstrates a traceable workflow from complaint-source analysis 
 
 ## Start here
 
+- [CFPB source dates and dataset coverage](dataset/README.md)
 - [Methods: cleaning, selection, and rationale](docs/portfolio/METHODS.md)
 - [Stage results and research limitations](docs/portfolio/RESULTS.md)
 - [Reproducibility and notebook guide](docs/portfolio/REPRODUCIBILITY.md)
