@@ -6,6 +6,8 @@ The CFPB v05.1 analysis underlying Seed v05.2 uses three frozen source extracts
 with different purposes. Dates below refer to complaint dates (`Date received`),
 not download dates.
 
+https://www.consumerfinance.gov/data-research/consumer-complaints/search/?dateRange=All&date_received_max=2026-09-22&date_received_min=2011-12-01&page=1&searchField=all&size=25&sort=created_date_desc
+
 | Source | Requested date range | Observed date range | Extract rows before cross-query deduplication |
 |---|---|---|---:|
 | Main population (`inscope_recent`) | 2025-01-01 to 2026-07-02 | 2025-01-01 to 2026-06-12 | 197,489 |
